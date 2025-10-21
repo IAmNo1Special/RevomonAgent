@@ -1,0 +1,1 @@
+from .agent import create_inventory_agent

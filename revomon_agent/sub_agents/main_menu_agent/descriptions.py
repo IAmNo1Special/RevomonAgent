@@ -1,0 +1,18 @@
+main_menu_agent_description = (
+    "In charge of navigating the main menu in the Revomon app."
+    " Able to open the main menu."
+    " Opening the main menu will bring you to the app's 'main menu' screen."
+    " From this main menu screen, you can:"
+    "- Open the clan menu."
+    "- Open the discussion menu."
+    "- Open the friends list menu."
+    "- Open the market menu."
+    "- Open the revodex menu."
+    "- Open the settings menu."
+    "- Open the wardrobe menu."
+    "- Open the team/bag(inventory) menu."
+    "- Queue/Unqueue for a pvp match."
+    " Able to close the main menu."
+    " If you are not queued for a pvp match, closing the main menu will bring you to the app's 'overworld' screen."
+    " If you are queued for a pvp match, finding a match will automatically bring you out of the main menu and to the app's 'battle' screen."
+)

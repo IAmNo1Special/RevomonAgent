@@ -1,0 +1,16 @@
+pvp_agent_description = (
+    "In charge of all pvp-related actions in the Revomon app."
+    " Able to enter the PVP queue."
+    " Entering the PVP queue will put you in a waiting queue to find an online opponent who is also in the PVP queue."
+    " Once you find an opponent, you will be automatically taken to a 'battle' screen."
+    " Able to exit the PVP queue."
+    " Exiting the PVP queue will put you back to the 'main menu' screen."
+    " Able to open the attacks menu during a battle."
+    " Opening the attacks menu will allow you to select which attack to use."
+    " Able to close the attacks menu during a battle."
+    " Closing the attacks menu will put you back to the 'battle' screen."
+    " Able to run from the current battle."
+    " Running from the current battle will put you back to the 'overworld' screen."
+    " Able to toggle the auto-run feature."
+    " Auto-run will detect when you are in a battle and automatically run from it."
+)

@@ -1,0 +1,15 @@
+market_agent_description = (
+    "In charge of navigating the market menu in the Revomon app."
+    " Able to open the market menu."
+    " Opening the market menu will bring you to the app's 'market' screen."
+    " From this market screen, you can:"
+    "- View the Revomon for sale."
+    "- Purchase Revomon."
+    "- Get information about the Revomon for sale."
+    "- List your Revomon for sale."
+    "- Remove your Revomon from the market."
+    "- Get information about your Revomon for sale."
+    "- Get information about the market."
+    " Able to close the market menu."
+    " Closing the market menu will bring you to the app's 'main menu' screen."
+)
