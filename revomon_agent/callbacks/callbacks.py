@@ -3,15 +3,15 @@ from google.adk.models import LlmRequest
 from google.adk.tools.tool_context import ToolContext
 from google.genai import types
 
-from .configs.app import app_config
+from ..configs.app import app_config
 
 
 def update_internal_worldstate(
-    tool = None,
-    args = None,
+    tool=None,
+    args=None,
     tool_context: ToolContext = None,
     callback_context: CallbackContext = None,
-    tool_response = None,
+    tool_response=None,
     llm_request: LlmRequest = None,
 ) -> None:
     """
@@ -22,7 +22,7 @@ def update_internal_worldstate(
         args: The google adk provided args object.
         tool_response: The google adk provided tool_response object.
         tool_context: The google adk provided ToolContext object.
-        
+
     Returns:
         None
     """
@@ -35,11 +35,11 @@ def update_internal_worldstate(
 
 
 def inject_world_state(
-    tool = None,
-    args = None,
+    tool=None,
+    args=None,
     tool_context: ToolContext = None,
     callback_context: CallbackContext = None,
-    tool_response = None,
+    tool_response=None,
     llm_request: LlmRequest = None,
 ) -> None:
     """
