@@ -10,10 +10,7 @@ from .services.memory import memory_service
 from .services.session import session_service
 
 
-def get_mcp_server_script(file_path):
-    return os_path.join(
-        os_path.dirname(os_path.abspath(file_path)), "revomonauto_mcp_server.py"
-    )
+
 
 
 async def create_session_runner(root_agent: Agent):
