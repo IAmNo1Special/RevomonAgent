@@ -5,7 +5,7 @@ from google.adk.tools.mcp_tool.mcp_toolset import McpToolset
 from mcp import StdioServerParameters
 
 from ...callbacks import inject_world_state, update_internal_worldstate
-from ...configs.mcp import mcp_config
+from ...revomonagent_mcp.config import mcp_config
 from ...toolbox.tools import close_bag, open_bag
 from .descriptions import inventory_agent_description
 from .instructions import inventory_agent_instructions
