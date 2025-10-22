@@ -6,7 +6,7 @@
 
 **An AI-powered automation assistant for the Revomon game, built with Google's Android Development Kit (ADK) and designed to run on BlueStacks emulator.**
 
-RevomonAgent is a sophisticated open-source AI assistant that automates gameplay in the Android game Revomon. Using Google's ADK framework with the Gemini 2.5-flash model, it provides intelligent automation for PvP battles, menu navigation, inventory management, and more. The system is built on a three-layer architecture using custom BluePyll ADB automation and the revomonauto game controller.
+RevomonAgent is a sophisticated open-source AI assistant that automates gameplay in the Android game Revomon. Using Google's ADK framework with the Gemini 2.5 Pro model for the main agent (and Flash for sub-agents), it provides intelligent automation for PvP battles, menu navigation, inventory management, and more. The system is built on a three-layer architecture using custom BluePyll ADB automation and the revomonauto game controller.
 
 ## Table of Contents
 
@@ -26,6 +26,7 @@ RevomonAgent is a sophisticated open-source AI assistant that automates gameplay
 - **5 Main Sub-Agents**: App launcher, Google search, menu management, PvP, and TV agents
 - **Intelligent Planning**: Uses Google's PlanReActPlanner for complex multi-step task execution
 - **Conversational Interface**: Natural language processing with context-aware responses
+- **Flexible AI Models**: Main agent uses Gemini 2.5 Pro, sub-agents use Flash (configurable)
 
 ### 🎮 Complete Game Control
 
@@ -207,6 +208,12 @@ from revomon_agent import create_root_agent
 agent = create_root_agent(use_mcp_tools=False)  # Standard mode
 # agent = create_root_agent(use_mcp_tools=True)  # MCP mode
 ```
+
+**Model Configuration:**
+
+- Main agent uses Gemini 2.5 Pro for complex planning and orchestration
+- Sub-agents use Gemini 2.5 Flash for faster, cost-effective responses
+- Models can be configured in the agent creation functions
 
 **Agent Hierarchy:**
 
