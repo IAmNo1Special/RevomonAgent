@@ -5,12 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "anyio>=4.11.0",
     "bluepyll==0.0.9",
-    "fastmcp==2.12.0",
     "google-adk>=1.16.0",
-    "mcp[cli]>=1.17.0",
-    "pyaudio>=0.2.14",
+    "mcp>=1.18.0",
     "python-dotenv>=1.1.1",
     "revomonauto>=0.2.0",
 ]
