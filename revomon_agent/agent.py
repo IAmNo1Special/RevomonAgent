@@ -28,7 +28,7 @@ def create_root_agent(use_mcp_tools: bool = False) -> Agent:
 
     root_agent = Agent(
         name="RevomonAutoAgent",
-        model="gemini-2.5-flash",
+        model="gemini-2.5-pro",
         description=revoagent_description,
         instruction=revoagent_instructions,
         tools=[
