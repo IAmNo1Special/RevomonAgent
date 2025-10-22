@@ -56,7 +56,6 @@ def create_pvp_agent(use_mcp_tools: bool = False) -> Agent:
         instruction=pvp_agent_instructions,
         tools=tools,
         before_model_callback=[inject_world_state],
-        before_tool_callback=[update_internal_worldstate],
         after_tool_callback=[update_internal_worldstate],
     )
 
